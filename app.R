@@ -4,21 +4,6 @@
 
 # load packages
 pacman::p_load(shiny, plotly, ggplot2, dplyr, bslib, thematic, SchistoTransmissionModel)
-# library(shiny)
-# library(plotly)
-# library(ggplot2)
-# library(dplyr)
-# library(mvtnorm)
-# library(RcppNumerical)
-# library(bslib)     #bs_theme()
-# library(thematic)  #thematic_shiny()
-# library(tidyverse)
-# 
-# # set working directory
-# setwd("~/GitHub/shiny-schistomod")
-# 
-# ## load model from package (so compilation not needed)
-# library(SchistoTransmissionModel)  #RunTransmissionModel()
 
 # Define the user interface ----------------------------------------------------
 ui <- fluidPage(
