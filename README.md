@@ -1,6 +1,10 @@
-## Shiny app for a schistosomiasis transmission model
+# Shiny app for a schistosomiasis transmission model
 
-The app is run using a publicly available model, which can be installed as an R package: https://github.com/gcmilne/SchistoTransmissionModel
+## Manuscript citation:
+Gregory C. Milne, Rebecca C. Oettle, Charles Whittaker, Narcis B. Kabaterine, Maria-Gloria Basáñez, Joanne P. Webster, Martin Walker, Shona Wilson. Revisiting immunity versus exposure in schistosomiasis: a mathematical modelling study of delayed concomitant immunity (in preparation).
+
+## User guide:
+The app is run using a publicly available model, which can be installed as an R package found [here](https://github.com/gcmilne/SchistoTransmissionModel).
 
 The user can simulate different mass drug adminstration (MDA) regimens by varying:
 - immuno-epidemiological parameters (e.g. R0 & the strength of acquired immunity)
