@@ -1,9 +1,14 @@
-#--------------------------------#
-# SHINY APP TO USE SCHISTO MODEL #
-#--------------------------------#
+#---------------------------------------------#
+# SHINY APP TO SIMULATE SCHISTOSOMIASIS MODEL #
+#---------------------------------------------#
 
-# load packages
-pacman::p_load(shiny, plotly, ggplot2, dplyr, bslib, thematic, SchistoTransmissionModel)
+# Load packages
+pacman::p_load(shiny, plotly, ggplot2, dplyr, bslib, thematic)
+
+# Load package containing transmission model
+if (!require(SchistoTransmissionModel)) { 
+  devtools::install_github("gcmilne/SchistoTransmissionModel")
+}
 
 # Define the user interface ----------------------------------------------------
 ui <- fluidPage(
