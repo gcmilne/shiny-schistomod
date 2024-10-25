@@ -1,7 +1,7 @@
-# Shiny app for a schistosomiasis transmission model
+# Shiny app for simulating a schistosomiasis transmission model
 
-## Manuscript citation:
-Gregory C. Milne, Rebecca C. Oettle, Charles Whittaker, Narcis B. Kabaterine, Maria-Gloria Basáñez, Joanne P. Webster, Martin Walker, Shona Wilson. Revisiting immunity versus exposure in schistosomiasis: a mathematical modelling study of delayed concomitant immunity (in preparation).
+## Published scientific paper:
+Gregory C. Milne, Rebecca C. Oettle, Charles Whittaker, Narcis B. Kabaterine, Maria-Gloria Basáñez, Joanne P. Webster, Martin Walker, Shona Wilson, 2024. Revisiting immunity versus exposure in schistosomiasis: a mathematical modelling study of delayed concomitant immunity. *PNAS Nexus*, https://doi.org/10.1093/pnasnexus/pgae471.
 
 ## User guide:
 The app is run using a publicly available model, which can be installed as an R package found [here](https://github.com/gcmilne/SchistoTransmissionModel).
